@@ -1,0 +1,68 @@
+[
+    {
+        "nombre": "Nintendo Super NES Classic Edition",
+        "lanzamiento": 1985,
+        "fabricante": "Nintendo",
+        "medios": "Cartucho"
+    },
+    {
+        "nombre": "Sega Genesis",
+        "lanzamiento": 1988,
+        "fabricante": "Sega",
+        "medios": "Cartucho"
+    },
+    {
+        "nombre": "Consola 8 Bit Family Blanco Rojo 90s",
+        "lanzamiento": 1983,
+        "fabricante": "Electrolab",
+        "medios": "Cartucho"
+    },
+    {
+        "nombre": "PlayStation 1",
+        "lanzamiento": 1994,
+        "fabricante": "Sony Computer Entertainment",
+        "medios": "Cd"
+    },
+    {
+        "nombre": "PlayStation 2",
+        "lanzamiento": 2006,
+        "fabricante": "Nintendo",
+        "medios": "Cd"
+    },
+    {
+        "nombre": "Xbox 360",
+        "lanzamiento": 2005,
+        "fabricante": "Microsoft",
+        "medios": "Cd"
+    },
+    {
+        "nombre": "MOCDIY Powkiddy RGB20S",
+        "lanzamiento": 2023,
+        "fabricante": "",
+        "medios": "Memoria Interna"
+    },
+    {
+        "nombre": "Consola Portatil Sup",
+        "lanzamiento": 2020,
+        "fabricante": "",
+        "medios": "Memoria Interna"
+    },
+    {
+        "nombre": "Consola Portatil Sup Premium",
+        "lanzamiento": 2022,
+        "fabricante": "",
+        "medios": "Memoria Interna"
+    },
+    {
+        "nombre": "Consola Arcade",
+        "lanzamiento": 2023,
+        "fabricante": "",
+        "medios": "Memoria Interna"
+    },
+    {
+        "nombre": "Consola retro netmark nm-brick",
+        "lanzamiento": 2000,
+        "fabricante": "",
+        "medios": "Memoria Interna"
+    }
+]

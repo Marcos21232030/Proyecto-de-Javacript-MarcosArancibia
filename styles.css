@@ -1,0 +1,537 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee+Spice&family=Cinzel&family=Nabla&family=Nanum+Gothic:wght@400;800&family=Nanum+Myeongjo&family=Poppins:wght@300&family=Press+Start+2P&family=Tilt+Prism&family=Tourney:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #242430;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    align-self: center;
+    min-height: 70vh;
+}
+
+.swiper-slide {
+    padding: 0 80px 50px 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev::after {
+    font-size: 25px;
+}
+
+.swiper-button-next::after {
+    font-size: 25px;
+}
+
+.swiper-button-prev {
+    color: #feffff;
+}
+
+.swiper-button-next {
+    color: #feffff;
+}
+
+.swiper-pagination-bullet {
+    background-color: #747474;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #6547b8;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+.logo img {
+    font-size: 25px;
+    color: #6547b8;
+    text-transform: uppercase;
+    font-weight: 800;
+    width: 150px;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #feffff;
+    display: block;
+    text-decoration: none;
+}
+
+.menu .navbar ul li a:hover {
+    color: #6547b8;
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.submenu {
+    position: relative;
+}
+
+.submenu #carrito {
+    display: none;
+}
+
+.submenu:hover #carrito {
+    display: block;
+    position: absolute;
+    right: 0;
+    backdrop-filter: blur(10px);
+    top: 100%;
+    z-index: 1;
+    background-color: #424242;
+    padding: 20px;
+    max-width: 400px;
+}
+
+table {
+    width: 100%;
+}
+
+th,
+td {
+    color: #feffff;
+}
+
+.borrar {
+    background-color: #6547b8;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #feffff;
+    font-weight: 800;
+}
+
+/*productos slide */
+.header-content {
+    padding: 200px 0 100px 0;
+}
+
+.header-info {
+    display: flex;
+}
+
+.header-txt {
+    width: 50%;
+}
+
+.header-txt h1 {
+    font-size: 50px;
+    color: #feffff;
+    text-transform: capitalize;
+}
+
+.header-img {
+    width: 50%;
+    text-align: right;
+}
+
+.header-img img {
+    width: 500px;
+}
+
+.prices {
+    display: flex;
+    margin: 20px 0;
+}
+
+.price-1 {
+    font-size: 30px;
+    color: #8a8a8a;
+    text-decoration-line: line-through;
+    margin-right: 25px;
+}
+
+.price-2 {
+    font-size: 30px;
+    color: #785ec0 !important;
+}
+
+.btn-1 {
+    display: inline-block;
+    background-color: #785ec0;
+    color: #feffff;
+    font-size: 16px;
+    padding: 10px 25px;
+    border-radius: 25px;
+    margin-top: 40px;
+    text-decoration: none;
+}
+
+.btn-1:hover {
+    background-color: #7704c4;
+}
+
+hr {
+    border: 1px solid #7A7BBF16;
+}
+
+.promos {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.promos h2 {
+    font-size: 50px;
+    color: #feffff;
+    margin-bottom: 35px;
+}
+
+.psx {
+    max-width: 100%;
+}
+
+@media screen and (min-width:568px) {
+    .psx {
+        transition: transform .3s;
+    }
+
+    .psx:hover {
+        transform: scale(1.25) translate3d(30%, -20%, 0);
+    }
+}
+
+.categories {
+    text-align: left;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.categorie {
+    display: flex;
+    align-items: center;
+    padding: 35px;
+}
+
+.categorie img {
+    width: 200px;
+}
+
+.categorie-1 {
+    width: 50%;
+}
+
+.categorie-1 h3 {
+    color: #feffff;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.categorie-1 p {
+    color: #747474;
+    font-size: 18px;
+}
+
+.categorie-img {
+    width: 50%;
+}
+
+.product {
+    width: 150px;
+}
+
+.products {
+    padding: 50px 0;
+}
+
+.products h2 {
+    font-size: 50px;
+    color: #feffff;
+    margin-bottom: 70px;
+}
+
+.product {
+    text-align: center;
+}
+
+.product img {
+    width: 150px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: 0.5s;
+}
+
+.product img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.product-txt h3 {
+    font-size: 18px;
+    color: #feffff;
+    margin-bottom: 15px;
+}
+
+.product-txt p {
+    color: #747474;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.precio {
+    color: #8868e2 !important;
+}
+
+.btn-3 {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-size: 14px;
+    color: #feffff;
+    border: 1px solid #7704c4;
+    border-radius: 25px;
+    animation: motionArrow 1.5s infinite;
+    transition: color .2s;
+    margin-top: 15px
+}
+
+@keyframes motionArrow {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50%,
+    100% {
+        transform: translateX(5px);
+    }
+}
+
+.btn-3:hover {
+    background-color: #7252cc;
+}
+
+/* Estilos generales del footer */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+/* Estilos de los elementos del footer */
+.footer-item {
+    padding: 10px;
+}
+
+.footer h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.footer p {
+    font-size: 0.9em;
+    margin: 0;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer li {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos adicionales (opcional) */
+.footer-item ul {
+    padding-left: 0;
+}
+
+/* Cambios de estilo al pasar el ratón sobre enlaces */
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.link {
+    width: 20%;
+}
+
+.link h3 {
+    color: #feffff;
+    margin-bottom: 20px;
+}
+
+.link a {
+    color: #a7a6a6;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.link p {
+    color: #727272;
+    font-size: 16px;
+}
+
+@media(max-width:991px) {
+    .menu {
+        padding: 20px;
+    }
+
+    .menu label {
+        display: initial;
+    }
+
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #181818;
+        display: none;
+    }
+
+    .menu .navbar ul li {
+        width: 100%;
+    }
+
+    #menu:checked~.navbar {
+        display: initial;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .submenu:hover #carrito {
+        min-width: 100%;
+    }
+
+    mySwiper-1 {
+        width: 300px;
+    }
+
+    .swiper-slide {
+        padding: 0 30px 50px 30px;
+    }
+
+    .header-content {
+        padding: 100px 0 50px 0;
+    }
+
+    .header-info {
+        padding: 0;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header-txt {
+        width: 100%;
+    }
+
+    .header-txt h1 {
+        font-size: 40px;
+    }
+
+    .header-img {
+        width: 100%;
+    }
+
+    .header-img img {
+        width: 200px;
+    }
+
+    .prices {
+        flex-direction: column;
+    }
+
+    .price-1 {
+        margin: 0;
+    }
+
+    .btn-1 {
+        margin: 20px 0;
+    }
+
+    .promos {
+        padding: 30px;
+    }
+
+    .promos h2 {
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+
+    .categorie {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .categorie-1 {
+        width: 100%;
+        margin-bottom: 25px;
+        order: -1;
+    }
+
+    .categorie-img {
+        width: 100%;
+    }
+
+    .product {
+        padding: 30px;
+    }
+
+    .products h2 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .link {
+        width: 100%;
+    }
+}
